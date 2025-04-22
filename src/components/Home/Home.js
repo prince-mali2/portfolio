@@ -1,9 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/HomeLogo2.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import '../../style.css'; 
+
 
 function Home() {
   return (
@@ -22,12 +30,56 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name" style={{fontSize:'45px'}}> PRINCE MALI</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+                          <ul className="home-about-social-links" style={{marginLeft:'30px'}}>
+                            <li className="social-icons">
+                              <a
+                                href="https://github.com/prince-mali2"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour  home-social-icons"
+                              >
+                                <AiFillGithub />
+                              </a>
+                            </li>
+                            <li className="social-icons">
+                              <a
+                                href="https://twitter.com/Soumyajit4419"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour  home-social-icons"
+                              >
+                                <AiOutlineTwitter />
+                              </a>
+                            </li>
+                            <li className="social-icons">
+                              <a
+                                href="https://www.linkedin.com/in/prince-mali/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour  home-social-icons"
+                              >
+                                <FaLinkedinIn />
+                              </a>
+                            </li>
+                            <li className="social-icons">
+                              <a
+                                href="https://www.instagram.com/prince._mali"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour home-social-icons"
+                              >
+                                <AiFillInstagram />
+                              </a>
+                            </li>
+                          </ul>
+              
+
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
