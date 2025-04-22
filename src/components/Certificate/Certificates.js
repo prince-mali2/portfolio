@@ -16,9 +16,9 @@ import backend2 from "../../Assets/certificates/backend2.png";
 
 // import CodingspoonC from "../../Assets/certificates/Codingspoon.png";
 
-import pdf from "../../Assets/../Assets/prince_cv2.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
-import Button from "react-bootstrap/Button";
+// import pdf from "../../Assets/../Assets/prince_cv2.pdf";
+// import { AiOutlineDownload } from "react-icons/ai";
+// import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 
 function Certificates() {

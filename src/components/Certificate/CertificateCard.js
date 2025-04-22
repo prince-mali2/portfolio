@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 // import { CgWebsite } from "react-icons/cg";
-import { BsLink } from "react-icons/bs";
+// import { BsLink } from "react-icons/bs";
 
 function CertificateCard(props) {
   return (
