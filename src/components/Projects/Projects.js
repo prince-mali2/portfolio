@@ -41,7 +41,7 @@ function Projects() {
               title="Goldsgym"
               description="Gold's Gym is a modern fitness website built with React, leveraging APIs from RapidAPI like ExerciseDB and YouTube Search. The platform offers users a comprehensive library of exercises, detailed instructions, and curated video tutorials to enhance their fitness journey. Designed for ease of use and visual appeal, it provides personalized fitness solutions and integrates seamlessly with contemporary fitness trends."
               ghLink="https://github.com/prince-mali2/Goldsgym"
-              demoLink="https://jsm-gym.netlify.app/"
+              demoLink="https://goldss-gymm.netlify.app/"
             />
           </Col>
 
