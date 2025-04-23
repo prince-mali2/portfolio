@@ -28,7 +28,7 @@ const Contact = () => {
             <ul style={{ listStyle: "none", paddingLeft: 0 }}>
               <li style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <HiOutlineMail style={{ fontSize: "1.5em", marginRight: "10px", color: "#58a6ff" }} />
-                <span>princemali@gmail.com</span>
+                <span>princemali019@gmail.com</span>
               </li>
               <li style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <HiOutlinePhone style={{ fontSize: "1.5em", marginRight: "10px", color: "#58a6ff" }} />
