@@ -16,6 +16,9 @@ function ResumeNew() {
   }, []);
 
   return (
+    <section id="resume">
+
+
     <div>
       <Container fluid className="resume-section">
         <Particle />
@@ -42,6 +45,7 @@ function ResumeNew() {
         </Row>
       </Container>
     </div>
+    </section>
   );
 }
 

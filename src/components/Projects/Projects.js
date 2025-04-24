@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Insect from "../../Assets/Projects/Insect.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
 import Filmpire from "../../Assets/Projects/Filmpire.png";
 import Food from "../../Assets/Projects/Food.png";
 import Goldgym from "../../Assets/Projects/Goldgym.png";
@@ -13,6 +11,8 @@ import Blogly1 from "../../Assets/Projects/Blogly1.png";
 
 function Projects() {
   return (
+    <section id="projects">
+
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -82,6 +82,7 @@ This food website is a visually appealing and user-friendly platform designed wi
         </Row>
       </Container>
     </Container>
+    </section>
   );
 }
 

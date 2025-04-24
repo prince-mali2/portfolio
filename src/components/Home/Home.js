@@ -15,7 +15,7 @@ import '../../style.css';
 
 function Home() {
   return (
-    <section>
+    <section id="home">
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">

@@ -22,7 +22,10 @@ import backend2 from "../../Assets/certificates/backend2.png";
 import Particle from "../Particle";
 
 function Certificates() {
-  return (<Container fluid className="project-section">
+  return (
+  <section id="certifications">
+
+  <Container fluid className="project-section">
     <Particle />
     <Container>
       <h1 className="project-heading">
@@ -87,6 +90,7 @@ function Certificates() {
       </Row>
     </Container>
   </Container>
+  </section>
   );
 }
 

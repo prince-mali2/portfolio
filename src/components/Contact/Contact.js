@@ -6,7 +6,7 @@ import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-ic
 
 const Contact = () => {
   return (
-    <section style={{ backgroundColor: "#0d1117", color: "#c9d1d9", padding: "40px 0" }}>
+    <section style={{ backgroundColor: "#0d1117", color: "#c9d1d9", padding: "40px 0" }} id="contact">
       <Container>
         <Row>
             
