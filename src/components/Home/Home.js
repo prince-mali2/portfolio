@@ -4,12 +4,12 @@ import homeLogo from "../../Assets/HomeLogo2.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import {
+//   AiFillGithub,
+//   AiOutlineTwitter,
+//   AiFillInstagram,
+// } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 import '../../style.css'; 
 
 
@@ -36,7 +36,7 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-                          <ul className="home-about-social-links" style={{marginLeft:'30px'}}>
+                          {/* <ul className="home-about-social-links" style={{marginLeft:'30px'}}>
                             <li className="social-icons">
                               <a
                                 href="https://github.com/prince-mali2"
@@ -77,7 +77,7 @@ function Home() {
                                 <AiFillInstagram />
                               </a>
                             </li>
-                          </ul>
+                          </ul> */}
               
 
             </Col>
