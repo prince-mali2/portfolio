@@ -12,7 +12,7 @@ const Contact = () => {
             
           {/* Contact Information */}
           <h1 className="project-heading" style={{marginTop:"80px"}}>
-           <strong className="purple">GET IN TOUCH </strong>
+           <strong className="purple">Connect With Me </strong>
         </h1>
         <h5>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</h5>
         <br></br>
