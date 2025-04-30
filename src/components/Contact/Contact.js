@@ -32,7 +32,7 @@ const Contact = () => {
               </li>
               <li style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <HiOutlinePhone style={{ fontSize: "1.5em", marginRight: "10px", color: "#58a6ff" }} />
-                <span>6350387180</span>
+                <span>+91 6350387180</span>
               </li>
               <li style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
                 <HiOutlineLocationMarker style={{ fontSize: "1.5em", marginRight: "10px", color: "#58a6ff" }} />
